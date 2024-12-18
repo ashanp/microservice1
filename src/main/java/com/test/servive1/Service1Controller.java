@@ -8,6 +8,7 @@ public class Service1Controller {
 	
     @GetMapping("/hello")
     public String hello() {
+	    System.out.println("Hello triggered");
         return "Hello from Service 1!";
     }
 
